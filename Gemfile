@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 ruby '2.0.0'
-#ruby-gemset=railstutorial_rails_4_0
+#ruby-gemset=quanegy_1_0
 
 gem 'rails', '4.0.1'
 gem 'bootstrap-sass', '3.0.2.1'
