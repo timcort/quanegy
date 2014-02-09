@@ -7,4 +7,10 @@ class StaticPagesController < ApplicationController
 
   def contact
   end
+
+  def getstarted
+  end
+
+  def test
+  end
 end

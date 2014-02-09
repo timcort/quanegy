@@ -7,13 +7,20 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">Quanegy</a>
+      <%= link_to "Quanegy", root_path, class: "navbar-brand" %>
     </div>
     <div class="navbar-collapse collapse">
       <ul class="nav navbar-nav navbar-right">
-        <li class="active"><%= link_to "Home", root_path %></li>
-        <li><%= link_to "About", about_path %></li>
-        <li><%= link_to "Contact", contact_path %></li>
+        <li class="<%= 'active' if current_page?( root_path ) %>"><%= link_to "Home", root_path %></li>
+        <li><a class="typeform-share" href="https://quanegy.typeform.com/to/XVdMxI" data-mode="1" target="_blank">Get Started</a>
+          <script>(function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id='typef_orm',b='https://s3-eu-west-1.amazonaws.com/share.typeform.com/';if(!gi.call(d,id)){js=ce.call(d,'script');js.id=id;js.src=b+'share.js';q=gt.call(d,'script')[0];q.parentNode.insertBefore(js,q)}id=id+'_';if(!gi.call(d,id)){qs=ce.call(d,'link');qs.rel='stylesheet';qs.id=id;qs.href=b+'share-button.css';s=gt.call(d,'head')[0];s.appendChild(qs,s)}})()
+          </script>
+        </li>
+        <li class="<%= 'active' if current_page?( about_path ) %>"><%= link_to "About", about_path %></li>
+        <li>
+          <a class="typeform-share link" href="https://quanegy.typeform.com/to/aaB5bM" data-mode="1" target="_blank">Contact</a>
+          <script>(function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id='typef_orm',b='https://s3-eu-west-1.amazonaws.com/share.typeform.com/';if(!gi.call(d,id)){js=ce.call(d,'script');js.id=id;js.src=b+'share.js';q=gt.call(d,'script')[0];q.parentNode.insertBefore(js,q)}})()</script>
+        </li>
       </ul>
     </div><!--/.nav-collapse -->
   </div>

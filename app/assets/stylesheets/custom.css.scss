@@ -2,7 +2,7 @@
 /*
  * Main navigation
  *
- * Turn the `.navbar` at the top of the docs purple.
+ * Turn the `.navbar` at the top of the docs blue.
  */
 
 .quan-nav {
@@ -39,19 +39,63 @@
   border-color: #1e6a96;
 }
 
+/* Typography */
+
+h1 {
+  margin-top: 80px;
+}
 
 /* Main marketing message and sign up button */
 .jumbotron {
   text-align: center;
   background-color: transparent;
-}
-.jumbotron .btn {
+  .btn {
   font-size: 21px;
   padding: 14px 24px;
+  margin-top: 40px;
+  }
+  h1 {
+    margin-bottom: 40px;
+    margin-top: 40px;
+    font-weight: 400;
+  }
 }
 
-.row {
+.center {
   text-align: center;
+}
+.left {
+  text-align: left;
+}
+/* Featurettes */
+.featurette-blue {
+  background-color: #E8F5FE;
+}
+.featurette {
+  // padding-top: 20px;
+  padding-bottom: 60px;
+}
+/* How it works*/
+/* Row of coloums */
+
+.hiw-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
+  margin-bottom: 10px;
+}
+
+.badge-large {
+  font-size: 60px;
+  padding-top: 15px;
+  border-radius: 55px;
+  background-color: #F0AD4E;
+  height: 90px;
+  width: 90px;
+
+  &.orange {
+    background-color: #5BC0DE;
+  }
 }
 
 /* video */
@@ -64,7 +108,7 @@
   overflow: hidden;
 }
  
-.flex-video.widescreen { padding-bottom: 47%; }
+.flex-video.widescreen { padding-bottom: 56.5%; }
 .flex-video.vimeo { padding-top: 0; }
  
 .flex-video iframe,
@@ -77,8 +121,55 @@
   height: 100%;
 } 
 
+/* Featurettes
+------------------------- */
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
+}
 /* footer */
 footer {
   text-align: center;
   padding-top: 40px;
+  // background-color: #3F4944;
+  padding-bottom: 45px;
+  // border-top: 1px solid #eaeaea;
+  color: #999999;
+}
+
+/* About page */
+
+.about-feature {
+  margin-bottom: 20px;
+  margin-top: 20px;
+} 
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .featurette-heading {
+    font-size: 50px;
+  }
+  .hiw-heading{
+    font-size: 50px;
+  }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .featurette-heading {
+    margin-top: 120px;
+  }
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
 }
