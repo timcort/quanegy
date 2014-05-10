@@ -4,6 +4,7 @@ Quanegy::Application.routes.draw do
   match '/contact', to: 'static_pages#contact', via: 'get'
   match '/getstarted', to: 'static_pages#getstarted', via: 'get'
   match '/test', to: 'static_pages#test', via: 'get'
+  match '/template', to: 'static_pages#template', via: 'get'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

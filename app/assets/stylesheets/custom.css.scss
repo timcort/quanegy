@@ -65,15 +65,51 @@ h1 {
     font-weight: 200;
   }
 }
+.cta h2{
+  font-size: 40px;
+  font-weight: bold;
+  color: #5A5F5E;
+  margin-top: 35px;
+}
+
+.cta h3{
+  font-size: 30px;
+  color: #5A5F5E;
+  text-align: left;
+}
 .hero {
   background: linear-gradient(#2e75b3 50%, transparent 50%);
 }
+.herotemplate {
+  background: linear-gradient(#2e75b3 40%, transparent 30%);
+}
+.hero a span {
+    font-size: 30px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+  }
 
 .center {
   text-align: center;
 }
 .left {
   text-align: left;
+}
+/* signature */
+.consultantname {
+  font-size: 35px;
+}
+
+.consultanttitle {
+  font-size: 25px;
+}
+
+.quanegy {
+  font-size: 25px;
+  color: #008F00;
+}
+
+.phoneemail {
+  font-size: 25px;
 }
 /* Featurettes */
 .featurette-blue {
@@ -160,19 +196,22 @@ footer {
 /* Extra small devices (phones, less than 768px) */
 @media (max-width: 767px) {
   .hero {
-    background: transparent;
+    background: linear-gradient(#2e75b3 45%, transparent 45%);
+  }
+  .herotemplate {
+    background: linear-gradient(#2e75b3 30%, transparent 30%);
   }
   .jumbotron {
     h1 {
       margin-bottom: 0px;
-      color: black;
+      color: white;
 
     }
     h2 {
       font-weight: 200;
       font-size: 20px;
       margin-bottom: 0px;
-      color: black;
+      color: white;
     }
   }
 }
