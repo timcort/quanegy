@@ -4,5 +4,9 @@
  User-agent: *
  Disallow: /contact
  Disallow: /template
- Disallow: /walshs
+ Disallow: /getstarted
+ Disallow: /test
+
+
+ Sitemap: http://app.wistia.com/sitemaps/41793.xml
 
