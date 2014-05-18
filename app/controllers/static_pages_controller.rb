@@ -16,4 +16,21 @@ class StaticPagesController < ApplicationController
 
   def template
   end
+
+  def airconadvisory
+  end
+
+  def ontraxcurtains
+  end
+
+  def ashgroveair
+  end
+
+  def excelairconditioning
+  end
+
+  def sunstateawnings
+  end
+
+
 end

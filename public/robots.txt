@@ -6,6 +6,11 @@
  Disallow: /template
  Disallow: /getstarted
  Disallow: /test
+ Disallow: /airconadvisory
+ Disallow: /ontraxcurtains
+ Disallow: /ashgroveair
+ Disallow: /excelairconditioning
+ Disallow: /sunstateawnings
 
 
  Sitemap: http://app.wistia.com/sitemaps/41793.xml
