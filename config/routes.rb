@@ -5,6 +5,7 @@ Quanegy::Application.routes.draw do
   match '/getstarted', to: 'static_pages#getstarted', via: 'get'
   match '/test', to: 'static_pages#test', via: 'get'
   match '/template', to: 'static_pages#template', via: 'get'
+
   match '/airconadvisory', to: 'static_pages#airconadvisory', via: 'get'
   match '/AirConAdvisory', to: 'static_pages#airconadvisory', via: 'get'
   match '/ontraxcurtains', to: 'static_pages#ontraxcurtains', via: 'get'
@@ -15,6 +16,14 @@ Quanegy::Application.routes.draw do
   match '/ExcelAirConditioning', to: 'static_pages#excelairconditioning', via: 'get'
   match '/sunstateawnings', to: 'static_pages#sunstateawnings', via: 'get'
   match '/SunstateAwnings', to: 'static_pages#sunstateawnings', via: 'get'
+
+  match '/atconveyancing', to: 'static_pages#atconveyancing', via: 'get'
+  match '/astekcranes', to: 'static_pages#astekcranes', via: 'get'
+  match '/AstekCranes', to: 'static_pages#astekcranes', via: 'get'
+  match '/excelconcrete', to: 'static_pages#excelconcrete', via: 'get'
+  match '/kwickcut', to: 'static_pages#kwickcut', via: 'get'
+  match '/moisturecontrol', to: 'static_pages#moisturecontrol', via: 'get'
+
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

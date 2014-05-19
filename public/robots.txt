@@ -12,6 +12,12 @@
  Disallow: /excelairconditioning
  Disallow: /sunstateawnings
 
+ Disallow: /atconveyancing
+ Disallow: /astekcranes
+ Disallow: /excelconcrete
+ Disallow: /kwickcut
+ Disallow: /moisturecontrol
+
 
  Sitemap: http://app.wistia.com/sitemaps/41793.xml
 

@@ -32,5 +32,21 @@ class StaticPagesController < ApplicationController
   def sunstateawnings
   end
 
+  def atconveyancing
+  end
+
+  def astekcranes
+  end
+
+  def excelconcrete
+  end
+
+  def kwickcut
+  end
+
+  def moisturecontrol
+  end
+
+
 
 end
