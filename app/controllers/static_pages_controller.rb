@@ -17,6 +17,8 @@ class StaticPagesController < ApplicationController
   def template
   end
 
+
+
   def airconadvisory
   end
 
@@ -47,6 +49,19 @@ class StaticPagesController < ApplicationController
   def moisturecontrol
   end
 
+  def theinspector
+  end
 
+  def svconcretework
+  end
+
+  def radibbs
+  end
+
+  def panelfab
+  end
+
+  def eclipsepatios
+  end
 
 end

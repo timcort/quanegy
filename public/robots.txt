@@ -18,6 +18,12 @@
  Disallow: /kwickcut
  Disallow: /moisturecontrol
 
+  Disallow: /theinspector
+  Disallow: /svconcretework
+  Disallow: /radibbs
+  Disallow: /panelfab
+  Disallow: /eclipsepatios
+
 
  Sitemap: http://app.wistia.com/sitemaps/41793.xml
 
