@@ -30,6 +30,12 @@ Quanegy::Application.routes.draw do
   match '/panelfab', to: 'static_pages#panelfab', via: 'get'
   match '/eclipsepatios', to: 'static_pages#eclipsepatios', via: 'get'
 
+  match '/heritagepark', to: 'static_pages#heritagepark', via: 'get'
+  match '/thehillschildcare', to: 'static_pages#thehillschildcare', via: 'get'
+  match '/sunstopblinds', to: 'static_pages#sunstopblinds', via: 'get'
+  match '/universalcranes', to: 'static_pages#universalcranes', via: 'get'
+  match '/waterworks', to: 'static_pages#waterworks', via: 'get'
+
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

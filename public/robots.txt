@@ -24,6 +24,12 @@
   Disallow: /panelfab
   Disallow: /eclipsepatios
 
+  Disallow: /heritagepark
+  Disallow: /thehillschildcare
+  Disallow: /sunstopblinds
+  Disallow: /universalcranes
+  Disallow: /waterworks
+
 
  Sitemap: http://app.wistia.com/sitemaps/41793.xml
 

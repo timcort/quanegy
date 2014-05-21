@@ -64,4 +64,19 @@ class StaticPagesController < ApplicationController
   def eclipsepatios
   end
 
+  def heritagepark
+  end
+
+  def thehillschildcare
+  end
+
+  def sunstopblinds 
+  end
+
+  def universalcranes
+  end
+
+  def waterworks
+  end
+
 end
