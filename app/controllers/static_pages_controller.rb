@@ -79,4 +79,19 @@ class StaticPagesController < ApplicationController
   def waterworks
   end
 
+  def alectric
+  end
+
+  def logancityelectrical
+  end
+
+  def neilhewittelectrical
+  end
+
+  def algesterelectrical
+  end
+
+  def brisbaneautomaticgatesystems
+  end
+
 end
