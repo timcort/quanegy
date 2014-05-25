@@ -94,4 +94,19 @@ class StaticPagesController < ApplicationController
   def brisbaneautomaticgatesystems
   end
 
+  def australiancustomsprofessionals
+  end
+
+  def smilecentral
+  end
+
+  def indooroopillydental
+  end
+
+  def qldaccess
+  end
+
+  def envisagedentalstudio
+  end
+
 end

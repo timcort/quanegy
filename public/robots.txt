@@ -36,6 +36,11 @@
   Disallow: /algesterelectrical
   Disallow: /brisbaneautomaticgatesystems
 
+  Disallow: /australiancustomsprofessionals
+  Disallow: /smilecentral
+  Disallow: /indooroopillydental
+  Disallow: /qldaccess
+  Disallow: /brisbaneautomaticgatesystems
 
  Sitemap: http://app.wistia.com/sitemaps/41793.xml
 
