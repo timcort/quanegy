@@ -109,4 +109,19 @@ class StaticPagesController < ApplicationController
   def envisagedentalstudio
   end
 
+  def northsidefencing
+  end
+
+  def antonbrownfunerals
+  end
+
+  def kmsmith
+  end
+
+  def aranaplazadental
+  end
+
+  def mangohilldental
+  end
+
 end
